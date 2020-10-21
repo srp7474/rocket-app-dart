@@ -1,0 +1,8 @@
+# control documentation options
+dartdoc:
+  favicon: 'doc-rocket-app.ico'
+  nodoc: ['**/diagnostics.dart']
+
+
+# end of dartdoc_options.yaml
+
