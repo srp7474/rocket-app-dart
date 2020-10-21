@@ -1,11 +1,14 @@
 # Dart/Flutter version of Rocket Launcher Demo
 
-Rocket Launcher using [Rocket lib](/docs/rocket-lib/api/index.html) which uses [SAMCAS](/docs/samcas/api/index.html) library as its engine.
+Rocket Launcher widget used by [Rocket app](/docs/rocket/api/index.html) and [Missile app](/docs/missile/api/index.html) which uses
+[SAMCAS](/docs/samcas/api/index.html) library as its engine.
 
 ## Description
 
-This sample app implements in Dart using the Flutter platform an enhanced version of the
-"Rocket launcher" used as a sample project to demonstrate the *SAM* pattern proposed by
+This component coded in Dart using the Flutter platform creates a [SAMCAS](/docs/samcas/api/index.html) model that can
+be injected into a Flutter widget tree that is hosted on Android, IOS and Web browser, windows and linux devices.
+
+It is the Dart version of the Rocket Launcher app (enhanced) used to illustrate the *SAM* pattern proposed by
 [Jean-Jacques Dubray](https://www.infoq.com/profile/Jean~Jacques-Dubray) and explained at
 [sam.js.org](https://sam.js.org/).
 
@@ -15,18 +18,8 @@ In brief, it provides a robust pattern with which to organize complex state muta
 The Dart version of [SAMCAS](/docs/samcas/api/index.html) is a table driven approach to the *SAM* pattern and extends the *SAM* pattern
 by including a simple signal protocol for child models to inform their parents of their state changes.
 
-This *Rocket App* serves to introduce the steps needed to incorporate a [SAMCAS](/docs/samcas/api/index.html) model into a Flutter app.
-
-The source code available at [rocket-dart-app](https://github/srp7474/rocket-dart-app) along with these documents
-can be used as a road map to build a [SAMCAS](/docs/samcas/api/index.html) application.
-
-The companion [Missile](../../missile/api/index.html) is more complex and documents a greater variety of steps
-needed to incorporate the [SAMCAS](/docs/samcas/api/index.html) facility into a Flutter app.
-
-## Purpose
-
-The Flutter/Dart objective to have one code base generate working apps on several platforms is
-ambitious. This simple app demonstrates, with qualifiers, it is a working reality.
+Refer to [Rocket app](/docs/rocket/api/index.html) and [Missile app](/docs/missile/api/index.html) for the road map on how to incorporate
+this into an application.
 
 ## License
 
@@ -38,13 +31,19 @@ Released under the [The MIT License](https://opensource.org/licenses/MIT)
 
 * Sam Methodology [sam.js.org](https://sam.js.org/)
 
-* The [SAMCAS](/docs/samcas/api/index.html) library
+* The [SAMCAS](https://gael-home.appspot.com/docs/samcas/api/index.html) library
 
-* The [Rocket lib](/docs/rocket-lib/api/index.html) library
+* The [Rocket lib](https://gael-home.appspot.com/docs/rocket-lib/api/index.html) library
 
-* The [Rocket App](/docs/rocket/api/index.html) a simple SAMCAS example
+* The [Rocket App](https://gael-home.appspot.com/docs/rocket/api/index.html) a simple SAMCAS example
 
-* The [Missile App](/docs/missile/api/index.html) a more complex SAMCAS example
+* The [Missile App](https://gael-home.appspot.com/docs/missile/api/index.html) a more complex SAMCAS example
+
+* The [Rocket App Working Web Demonstration](https://gael-home.appspot.com/web/rocket/web/index.html)
+
+* The [Missile App Working Web Demonstration](https://gael-home.appspot.com/web/missile/web/index.html)
+
+
 
 ## Source repository at GitHub ##
 
@@ -55,3 +54,5 @@ Released under the [The MIT License](https://opensource.org/licenses/MIT)
 * [rocket-app-dart](https://github.com/srp7474/rocket-app-dart) Rocket app, needs SAMCAS library, Rocket component
 
 * [missile-app-dart](https://github.com/srp7474/missile-app-dart) Missile App, needs SAMCAS library, Rocket component
+
+
